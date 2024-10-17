@@ -17,6 +17,8 @@ ul {
     margin: 0;
     padding: 10px;
     height: 40px;
-    justify-content:space-around;
+    /* justify-content:space-around; */
+    justify-content: flex-end;
+
 }
 
