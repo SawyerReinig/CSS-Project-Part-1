@@ -7,3 +7,17 @@ body {
   h1 {
     font-family: playfair;
   }
+  
+ul {
+    list-style-type: none;
+    background-color: black;
+    display: flex;
+    margin: 0;
+    padding: 10px 0;
+    height: 40px;
+    justify-content:space-around;
+}
+
+li {
+    color: #F6F0ED;
+}
