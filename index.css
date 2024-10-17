@@ -4,8 +4,10 @@ body {
     font-family: barlow;
 }
 h1 {
+  font-size: 12px;
   font-family: playfair;
 }
+
   
 ul {
     list-style-type: none;
