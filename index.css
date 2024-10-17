@@ -15,7 +15,7 @@ ul {
     background-color: black;
     display: flex;
     margin: 0;
-    padding: 10px 0;
+    padding: 10px;
     height: 40px;
     justify-content:space-around;
 }
