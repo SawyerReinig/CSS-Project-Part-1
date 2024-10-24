@@ -18,19 +18,23 @@ h1 {
 }
 
   
-ul {
-    list-style-type: none;
-    background-color: black;
-    display: flex;
-    margin: 0;
-    padding: 10px 0;
-    height: 30px;
-    /* justify-content:space-around; */
-    justify-content: flex-end;
-
+#Header {
+  position: sticky;
+  top: 0; /* Sticks to the top of the screen */
+  z-index: 1000; /* Keeps it above other elements */
 }
 
-li a{
+#Header ul {
+  list-style-type: none;
+  background-color: black;
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  margin: 0;
+  padding: 10px 0;
+  height: 50px; /* Increased height for better visual balance */
+}
+
+#Header li a{
   text-decoration: none;
   color: #F6F0ED;
   padding: 16px 30px;
@@ -39,15 +43,21 @@ li a{
 
 }
 
-li a:hover{
+#Header li a:hover{
   background-color: #7EA8BE;
   color:#F6F0ED; 
   
 }
 
-li a:active{
+#Header li a:active{
   background-color: #C2948A;
   color:black; 
+}
+
+#Header .logo {
+  margin-right: auto;
+  padding-left: 20px; 
+  font-size: 35px;
 }
 
 footer {
