@@ -2,7 +2,17 @@ body {
     background-color: #fff;
     margin: 0;
     font-family: barlow;
+    background-image: url('img/Background.png'); 
+    background-repeat: repeat; /* Allows the texture to repeat if it's smaller than the viewport */
+    background-size: cover; /* Ensure the image covers the whole viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Optional: Fixes the background while scrolling */
 }
+#MainImage{
+  width: 100%; /* Stretches the image across the full width of the page */
+  height: auto; 
+}
+
 h1 {
   font-family: playfair;
 }
