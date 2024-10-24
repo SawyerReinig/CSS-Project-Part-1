@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #F6F0ED;
     margin: 0;
     font-family: barlow;
   }
@@ -7,7 +7,7 @@ body {
   h1 {
   font-size: 40px;
   font-family: playfair;
-  background-color: #C2948A;
+  background-color: #7EA8BE;
   padding: 20px;
   margin-top: 0px;
   }
@@ -15,7 +15,7 @@ body {
   
   .about {
     width: 1300px;
-    margin: 100px;
+    margin-left: 100px;
   }
 
   .about img {
@@ -23,14 +23,35 @@ body {
     padding-left: 200px;
   }
 
-  .about h3 {
-    text-align: center;
+  article {
+    margin-left: 22%;
+    max-width: 50%;
   }
-  h4 {
+
+  .mission {
+    text-align: center;
+    margin-left: 19.8%;
+    background-color: #7EA8BE;
+    padding: 1%;
+    max-width: 57.2%;
+  }
+
+  .about h2 {
+    text-align: center;
+    font-family: playfair;
+    font-size: 30px;
+  }
+
+  h3 {
     margin-left: 20px;
   }
   p{
     margin-left: 50px;
+  }
+
+  content h2 {
+    text-align: center;
+    margin-left: 150px;
   }
 
   ul {
