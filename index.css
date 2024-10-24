@@ -69,3 +69,15 @@ footer {
   background-color: black;
   color: #F6F0ED;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+
+footer > div {
+  width: 150px;
+  height: 400px
+}
