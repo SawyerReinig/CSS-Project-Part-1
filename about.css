@@ -2,9 +2,20 @@ body {
     background-color: #F6F0ED;
     margin: 0;
     font-family: barlow;
+    background-image: url('img/Background.png'); 
+    background-repeat: repeat; /* Allows the texture to repeat if it's smaller than the viewport */
+    background-size: cover; /* Ensure the image covers the whole viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Optional: Fixes the background while scrolling */
   }
 
-  h1 {
+  #Header {
+    position: sticky;
+    top: 0; /* Sticks to the top of the screen */
+    z-index: 1000; /* Keeps it above other elements */
+  }
+
+  h2 {
   font-size: 40px;
   font-family: playfair;
   background-color: #7EA8BE;
@@ -54,34 +65,52 @@ body {
     margin-left: 150px;
   }
 
-  ul {
+  #Header {
+    position: sticky;
+    top: 0; /* Sticks to the top of the screen */
+    z-index: 1000; /* Keeps it above other elements */
+  }
+  
+  #Header ul {
     list-style-type: none;
     background-color: black;
     display: flex;
+    align-items: center; /* Aligns items vertically */
     margin: 0;
     padding: 10px 0;
-    height: 30px;
-    /* justify-content:space-around; */
-    justify-content: flex-end;
+    height: 50px; /* Increased height for better visual balance */
+  }
+  
+  #Header li a{
+    text-decoration: none;
+    color: #F6F0ED;
+    padding: 16px 30px;
+    font-size: 20px;
+    /* transition: color 0.4s, font-size 1s; */
   
   }
   
-  li a{
-  text-decoration: none;
-  color: #F6F0ED;
-  padding: 16px 30px;
-  font-size: 20px;
-  /* transition: color 0.4s, font-size 1s; */
-  
+  #Header li a:hover{
+    background-color: #7EA8BE;
+    color:#F6F0ED; 
+    
   }
   
-  li a:hover{
-  background-color: #7EA8BE;
-  color:#F6F0ED; 
-  
+  #Header li a:active{
+    background-color: #C2948A;
+    color:black; 
   }
   
-  li a:active{
-  background-color: #C2948A;
-  color:black; 
+  #Header .logo {
+    margin-right: auto;
+    padding-left: 20px; 
+    font-size: 35px;
   }
+  
+  footer {
+    padding: 40px 30px;
+    background-color: black;
+    color: #F6F0ED;
+  }
+  
+  
