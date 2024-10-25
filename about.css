@@ -2,7 +2,8 @@ body {
     background-color: #F6F0ED;
     margin: 0;
     font-family: barlow;
-    background-image: url('img/Background.png'); 
+    /* background-image: url('img/Background.png');  */
+    background-color: black;
     background-repeat: repeat; /* Allows the texture to repeat if it's smaller than the viewport */
     background-size: cover; /* Ensure the image covers the whole viewport */
     background-position: center; /* Center the image */
@@ -108,7 +109,7 @@ body {
   
   footer {
     padding: 40px 30px;
-    background-color: black;
+    background-color: #7EA8BE;
     color: #F6F0ED;
   }
   
