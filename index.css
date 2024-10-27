@@ -114,3 +114,19 @@ footer > div {
 .card p {
   margin: 10px 0;
 }
+
+
+.carousel {
+  width: 100%; /* Make the carousel take the full width of the viewport */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.carousel-inner {
+  width: 100%; /* Ensure the inner container also takes up the full width */
+}
+
+.carousel .item img {
+  width: 100%; /* Make the image take the full width of the item */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the entire container without distortion */
+}
