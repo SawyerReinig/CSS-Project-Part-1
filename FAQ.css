@@ -96,7 +96,7 @@ h1 {
 }
 
 .card strong{
-  color: #f1dd6f; /* Used different contrast color, thought it looked nice. Feel free to change back to blue or pink */
+  color: #79b0ce; /* Used different contrast color, thought it looked nice. Feel free to change back to blue or pink */
 
 }
 
@@ -109,7 +109,7 @@ h1 {
 }
 
 .card h2, .card h3 {
-  color: #FFD700; /* Used different contrast color, thought it looked nice. Feel free to change back to blue or pink */
+  color: #69a0be; /* Used different contrast color, thought it looked nice. Feel free to change back to blue or pink */
   margin-top: 0;
 }
 
@@ -118,7 +118,7 @@ h1 {
 }
 
 .card a {
-  color: #FFA500;
+  color: #aacee1;
   text-decoration: none;
 }
 
