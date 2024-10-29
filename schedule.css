@@ -68,9 +68,14 @@ h1 {
 section {
   display: grid;
   grid-template-columns: 40% auto;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.1fr;
   row-gap: 15px;
   column-gap: 10px;
+  justify-content: center;
+}
+
+.title {
+  grid-column: 1 / span 2;
 }
 
 .event {
