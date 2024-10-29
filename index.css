@@ -75,7 +75,7 @@ footer {
 
 footer > div {
   width: 150px;
-  height: 325px
+  height: 300px
 }
 
 @media(max-width: 500px){
