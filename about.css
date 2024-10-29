@@ -108,9 +108,23 @@ body {
   }
   
   footer {
-    padding: 40px 30px;
+    padding: 15px 50px;
     background-color: #7EA8BE;
     color: #F6F0ED;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  footer > div {
+    width: 150px;
+    height: 300px
+  }
+  
+  @media(max-width: 500px){
+  
+    footer{
+      flex-direction:column;
+    }
   }
   
   
