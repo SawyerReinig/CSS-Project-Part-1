@@ -132,7 +132,7 @@ h1 {
 footer {
   padding: 15px 50px;
   background-color: #7EA8BE;
-  color: #F6F0ED;
+  color: black;
   display: flex;
   justify-content: space-evenly;
 }
