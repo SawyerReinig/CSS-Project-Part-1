@@ -85,38 +85,6 @@ footer > div {
   }
 }
 
-.card {
-  background-color: #333; 
-  padding: 20px;
-  margin: 20px auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  max-width: 800px;
-}
-
-/* Links in cards */
-.card a {
-  color: #7EA8BE;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.card a:hover {
-  text-decoration: underline;
-}
-
-/* Headings for cards */
-.card h2, .card h3, .card h4 {
-  color: #F6F0ED;
-  margin-top: 0;
-}
-
-/* Paragraphs for cards */
-.card p {
-  margin: 10px 0;
-}
-
-
 .carousel {
   width: 100%; /* Make the carousel take the full width of the viewport */
   overflow: hidden; /* Hide any overflow */
@@ -131,3 +99,117 @@ footer > div {
   height: auto; /* Maintain aspect ratio */
   object-fit: cover; /* Cover the entire container without distortion */
 }
+
+
+
+
+
+
+/* CARDS */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Card styling */
+.card {
+  background-color: #333;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Flex order for left and right alignment */
+.left-align {
+  flex-direction: row;
+}
+
+.right-align {
+  flex-direction: row-reverse;
+}
+/* Cards container to hold all card-wrapper items */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Card wrapper to contain each card and its image */
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1600px;
+  margin: 20px 0;
+}
+
+/* Card styling */
+.card {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Card image styling */
+.card-image {
+  width: 600px;
+  height: auto;
+  margin: 0 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Left-align style: card on the left, image on the right */
+.left-align {
+  flex-direction: row;
+}
+
+/* Right-align style: card on the right, image on the left */
+.right-align {
+  flex-direction: row-reverse;
+}
+
+/* Links in cards */
+.card a {
+  color: #7EA8BE;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+.card h2, .card h3, .card h4 {
+  color: #F6F0ED;
+  margin-top: 0;
+}
+
+/* Paragraphs for cards */
+.card p {
+  margin: 10px 0;
+  font-size: 20px;
+
+}
+
+/* Specific rule for card with lots of text */
+/* .card.classics-series {
+  background-color: #444;
+  padding: 25px;
+  border: 2px solid #7EA8BE;
+  color: #F6F0ED;
+  max-width: 1000px;
+} */
