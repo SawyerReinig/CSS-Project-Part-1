@@ -164,4 +164,8 @@ footer > div {
   img {
     max-height: 30vh;
   }
+
+  body {
+    max-width: 100%;
+  }
 }
