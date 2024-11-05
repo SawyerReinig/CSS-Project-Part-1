@@ -72,6 +72,7 @@ section {
   row-gap: 15px;
   column-gap: 10px;
   justify-content: center;
+  margin-left: 2%;
 }
 
 .title {
