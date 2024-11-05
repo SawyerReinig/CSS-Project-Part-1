@@ -142,9 +142,25 @@ footer > div {
   height: 500px
 }
 
-@media(max-width: 500px){
+  @media(max-width: 500px){
+  
+    footer{
+      flex-direction:column;
+    }
+    #Header li a{
+      text-decoration: none;
+      color: #F6F0ED;
+      padding: 16px 10px;
+      font-size: 10px;
+      /* transition: color 0.4s, font-size 1s; */
+    
+    }
 
-  footer{
-    flex-direction:column;
-  }
+    #Header .logo {
+      font-size: 15px;
+    }
+
+    #Header {
+      max-width: 500px;
+    }
 }

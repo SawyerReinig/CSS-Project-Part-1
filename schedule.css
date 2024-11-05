@@ -100,8 +100,67 @@ footer > div {
 }
 
 @media(max-width: 500px){
-
+  
   footer{
     flex-direction:column;
+  }
+  #Header li a{
+    text-decoration: none;
+    color: #F6F0ED;
+    padding: 16px 10px;
+    font-size: 10px;
+    /* transition: color 0.4s, font-size 1s; */
+  
+  }
+
+  #Header .logo {
+    font-size: 15px;
+  }
+
+  #Header .logo {
+    font-size: 15px;
+  }
+
+  #Header {
+    max-width: 500px;
+  }
+
+  p {
+    font-size: 12px;
+    margin-left: 15px;
+    max-width: 80%;
+  }
+  
+  .title {
+    grid-column: 1 / span 3;
+    max-width: 80%;
+    font-size: 12px;
+    margin-left: 15%;
+  }
+  
+  .event h3 {
+    margin-left: 10%;
+    max-width: 30%;
+    margin-top: auto;
+  }
+
+  .event {
+     width: 500px;
+     max-height: fit-content;
+  }
+
+  .event p {
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+  .event .date {
+    margin-top: 0px;
+  }
+  .event .description {
+    margin-top: 30%;
+  }
+  
+  img {
+    max-height: 30vh;
   }
 }

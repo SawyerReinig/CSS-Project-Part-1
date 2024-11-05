@@ -100,7 +100,7 @@ body {
   #Header .logo {
     margin-right: auto;
     padding-left: 20px; 
-    font-size: 20px;
+    font-size: 35px;
   }
   
   footer {
@@ -130,16 +130,20 @@ body {
     
     }
 
+    #Header .logo {
+      font-size: 15px;
+    }
+
+    #Header {
+      max-width: 500px;
+    }
+
     h2 {
       text-align: center;
     }
 
     .about h3 {
       margin-left: 5%;
-    }
-
-    #Header {
-      max-width: 500px;
     }
 
     .about{
@@ -152,6 +156,8 @@ body {
       max-width: 100%;
       padding-left: 0;
     }
+
+
   }
   
   
