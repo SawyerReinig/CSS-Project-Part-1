@@ -118,10 +118,6 @@ footer > div {
     font-size: 15px;
   }
 
-  #Header .logo {
-    font-size: 15px;
-  }
-
   #Header {
     max-width: 500px;
   }
@@ -143,6 +139,7 @@ footer > div {
     margin-left: 10%;
     max-width: 30%;
     margin-top: auto;
+    padding-bottom: 5%;
   }
 
   .event {
@@ -153,19 +150,14 @@ footer > div {
   .event p {
     margin-left: 15%;
     margin-top: 20%;
+    max-width: 50%;
   }
-  .event .date {
-    margin-top: 0px;
-  }
-  .event .description {
-    margin-top: 30%;
+  .event .date, .event .description{
+    margin-top: 0%;
+
   }
   
   img {
-    max-height: 30vh;
-  }
-
-  body {
-    max-width: 100%;
+    max-height: 30%;
   }
 }
