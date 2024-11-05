@@ -230,4 +230,23 @@ footer > div {
   #Header {
     max-width: 500px;
   }
+
+  .cards-container {
+    display: grid;
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .card-wrapper {
+    display: grid;
+  }
+
+  .card {
+    max-width: 100vw;
+    display: inline;
+  }
+
+  .card-image {
+    max-width: 100vw;
+  }
 }
